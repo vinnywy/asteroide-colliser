@@ -4,9 +4,9 @@ export class Menu extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('bgMenu', 'Assets/background_Menu.jpg');
-        this.load.image('titulo', 'Assets/titulo.png');
-        this.load.image('botao', 'Assets/botao.png'); // Carregando o botão
+        this.load.image('bgMenu', './Assets/background_Menu.jpg');
+        this.load.image('titulo', './Assets/titulo.png');
+        this.load.image('botao', './Assets/botao.png'); // Carregando o botão
     }
 
     create() {

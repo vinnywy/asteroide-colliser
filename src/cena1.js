@@ -10,11 +10,11 @@ export class Cena1 extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('bg', 'Assets/background.png');
-        this.load.image('player', 'Assets/nave.png');
-        this.load.image('turbo', 'Assets/fogo.png');
-        this.load.image('asteroide', 'Assets/asteroide.png');
-        this.load.image('meteorito', 'Assets/meteorito.png');
+        this.load.image('bg', './Assets/background.png');
+        this.load.image('player', './Assets/nave.png');
+        this.load.image('turbo', './Assets/fogo.png');
+        this.load.image('asteroide', './Assets/asteroide.png');
+        this.load.image('meteorito', './Assets/meteorito.png');
     }
 
     create() {
